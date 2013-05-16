@@ -8,6 +8,7 @@ class Resource(object):
         self.url = url
         self.__fields = fields
 
+    @property
     def fields(self):
         if self.__fields != None: return self.__fields
 
