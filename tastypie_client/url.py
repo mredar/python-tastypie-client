@@ -1,5 +1,5 @@
 
-import urlparse
+import urlparse #parse_qs* not in < 2.6
 import urllib
 
 # A slightly "better" urljoin. Doesn't support multi-valued querystring params at the moment

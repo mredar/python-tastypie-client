@@ -1,5 +1,7 @@
-
-import simplejson as json
+try:
+    import json #Python 2.6+
+except ImportError:
+    import simplejson as json
 from httplib2 import Http
 
 from tastypie_client import Resource
